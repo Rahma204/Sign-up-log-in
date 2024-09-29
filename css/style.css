@@ -1,0 +1,61 @@
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+a{
+  color: inherit;
+}
+h1{
+    color: #17a2b8;
+
+}
+/* .navbar-nav .nav-link.active{
+  
+  color:rgba(255,255,255,.5) !important;
+} */
+/* .btn-outline-warning{
+--bs-btn-active-bg: transparent;
+--bs-btn-hover-color: rgba(255,255,255,.5);
+--bs-btn-hover-bg: #ffc107;
+} */
+ .nav{
+  border: 1px solid #ffc107;
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  background-color: transparent;
+  transition: background-color 500ms;
+ }
+ .nav:hover{
+  background-color: #ffc107;
+
+ }
+ .btn:hover {
+  color: var(--bs-btn-hover-color);
+ --bs-btn-hover-bg: #ffc107;
+ --bs-btn-hover-border-color: #ffc107;
+}
+.form-control {
+
+    --bs-body-bg: #24353f;
+
+}
+.form-control::placeholder {
+    --bs-secondary-color: #ced4da;
+}
+.form-control:focus {
+    box-shadow:none;
+  }
+
+  .content, .header{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1)
+  }
+  #success{
+    color: #28a745!important;
+  }
+  #error, #exist, #invalideEmail{
+    color: red!important;
+  }
+  #logout a{
+color: rgba(255, 255, 255, 0);
+  }

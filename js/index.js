@@ -85,7 +85,7 @@ function clear () {
               localStorage.setItem("name", usersList[i].userName)    
             location.replace("home.html") 
     }else{
-        location.replace("signup.html")
+        location.replace("index.html")
     }
     }
 }
